@@ -1,0 +1,504 @@
+html {
+	scroll-behavior: smooth;
+}
+
+
+header, section, footer {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	font-family: Courier New, Lucida Console, Garamond;
+}
+header {
+	height: 200px;
+	padding-top: 20px;
+	background: black;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+#marca { 
+	width: 450px;
+	height: 120px;
+	background-color: rgba(0, 0, 255, 0);
+	clear: both;
+	margin: auto;
+	background: white; 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 10px;
+
+}
+
+#botonera, #btn_taller {
+	width: 520px;
+	height: 60px;
+	background-color: rgba(0, 0, 255, 0);
+	clear: both;
+	margin-left: 220px;
+	margin-top: 10px;
+	background-position: center;
+	background-size: 100%;
+}
+#btn_taller {
+	margin-left: 50px;
+
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+}
+ul li {
+	display: inline;
+}
+ul li a{
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	margin-bottom: 5px;
+	text-decoration: none;
+	font-family: Courier New, Lucida Console, Garamond;
+	line-height: 30px;
+	font-weight: bold;
+	color: white;
+}
+ul li a:hover {
+	background-color: #d2a679;
+}
+
+#HOME { 
+	height: 300px;
+	background-image: url(imagenes/velanaranjas.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+#HOMEPRESENTACION {
+	height: 200px;
+	width: 400px;
+	float: right;
+    margin: auto;
+	background-color: rgba(100, 100, 80, 1);
+	margin-top: 50px;
+	margin-right: 25px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px #e1eaea;
+	
+}
+
+p {
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	margin: auto;
+	
+}
+
+#PRODUCTOS {
+	height: 500px;
+	background-color: rgba(100, 100, 80, 1);
+	
+	
+}
+#PRODUCTO1, #PRODUCTO2, #PRODUCTO3, #PRODUCTO4, #PRODUCTO6, #PRODUCTO7, #PRODUCTO8, #PRODUCTO9 {
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin: 20px;
+	border-radius: 10px;
+}
+#PRODUCTO1{
+	background-image: url(imagenes/aceites.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+#PRODUCTO1 p {
+	color: black;
+	font-size: 18px;
+	text-align: right;
+	font-weight: bold;
+
+}
+#PRODUCTO2 {
+	background-image: url(imagenes/accesorios.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+#PRODUCTO2 p {
+	color: black;
+	font-size: 18px;
+	text-align: right;
+	font-weight: bold;
+
+}
+
+#PRODUCTO3 {
+	background-image: url(imagenes/apagador.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#PRODUCTO3 p {
+	color: black;
+	font-size: 18px;
+	text-align: right;
+	font-weight: bold;
+
+}
+#PRODUCTO4 {
+	background-image: url(imagenes/ceracuenco.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#PRODUCTO4 p {
+	color: black;
+	font-size: 18px;
+	text-align: right;
+	font-weight: bold;
+
+}
+
+#PRODUCTO6 img, #PRODUCTO7 img, #PRODUCTO8 img, #PRODUCTO9 img {
+	height: 100%;
+}
+
+#TALLER {
+	height: 650px;
+	background-color: rgba(100, 100, 80, 1);
+	padding-top: 1px;
+}
+#TALLER h2 {
+	text-align: center;
+	padding-top: 0;
+	color: white;
+}
+h3 {
+	color: black;
+}
+#cont_taller {
+	width: 100%;
+}
+#img_taller {
+	width: 300px;
+	float: left;
+}
+#info_taller {
+	width: 500px;
+	float: right;
+	padding: 20px;
+	margin-right: 50px;
+	margin-top: 20px;
+	box-sizing: border-box;
+	background: -moz-linear-gradient(top, #e1eaea, #ffffcc);
+	background: -webkit-linear-gradient(top, #e1eaea, #ffffcc);
+
+}
+#info_taller p {
+	color: black;
+}
+#img_taller img {
+	width: 100%;
+	padding-left: 40px;
+}
+
+#CONTACTO {
+	height: 400px;
+	background-color: rgba(100, 100, 80, 1);
+}
+#CONTACTO h2, #galeria h2 {
+	text-align: center;
+	margin-top: 0;
+	color: white;
+	padding: 10px;
+}
+#form {
+	width: 500px;
+	float: left;
+	
+}
+input, textarea {
+	width: 50%;
+	padding: 6px;
+	margin-bottom: 5px;
+	margin-left: 230px;
+	box-sizing: border-box;
+}
+.btn_form {
+	background-color: #e6ccb3;
+}
+#galeria {
+	height: 350px;
+	background-color: rgba(100, 100, 80, 1);
+}
+.mini {
+	height: 200px;
+	margin: 15px;
+}
+
+footer {
+	height: 150px;
+	background-image: url(imagenes/velanaranjas.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#INFO {
+	height: 50px;
+	width: 300px;
+	float: right;
+	margin-top: 25px;
+	margin-right: 10px;
+}
+#INFO p {
+	text-align: center;
+	font-size: 24px;
+	color: rgba(100, 100, 80, 1);
+	font-weight: bold;
+}
+
+
+
+#REDES {
+	height: 50px;
+	width: 300px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+#REDES img {
+	height: 100%;
+	margin-left: 140px;
+}
+
+#REDES p a {
+	text-decoration: none;
+	color: rgba(100, 100, 80, 1);
+	font-weight: bold;
+	font-size: 18px;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+header, section, footer {
+	width: 580px;
+}
+
+#marca { 
+	width: 350px;
+}
+
+#botonera, #btn_taller {
+	width: 500px;
+	margin-top: 5px;
+	margin-left: 60px;
+
+	
+}
+
+ul li a{
+	
+	width: 90px;
+	margin-left: 10px;
+}
+ul li a:hover {
+	background-color: #d2a679;
+}
+
+#HOME { 
+	height: 400px;
+}
+#HOMEPRESENTACION {
+	width: 300px;
+	margin-left: 40px;
+	height: 280px;
+}
+
+#PRODUCTOS {
+	height: 900px;	
+}
+#PRODUCTO1, #PRODUCTO2, #PRODUCTO3, #PRODUCTO4, #PRODUCTO6, #PRODUCTO7, #PRODUCTO8 {
+	width: 250px;
+	margin: 20px;
+}
+
+ 
+
+#TALLER {
+	height: 1000px;
+}
+#cont_taller {
+	width: 90%;
+
+}
+#img_taller {
+	width: 200px;
+}
+#info_taller {
+	
+	width: 260px;
+}
+input, textarea {
+	margin-left: 60px;
+	width: 80%;
+}
+#galeria {
+	height: 600px;
+	padding-left: 60px;
+}
+#galeria h2 {
+	text-align: left;
+}
+footer {
+	height: 150px;
+}
+#INFO {
+	height: 50px;
+	width: 200px;
+	margin-top: 25px;
+	margin-right: 10px;
+}
+
+#REDES {
+	height: 50px;
+	width: 200px;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+} /*fin media 600 a 1023*/ 
+
+@media all and (max-width: 599px){
+header, section, footer {
+	width: 90%;
+}
+header {
+	position: relative;
+	height: auto;
+}
+#marca { 
+	width: 100%;
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+#botonera, #btn_taller {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	margin-top: 0px;
+}
+
+ul li {
+	display: block;
+}
+ul li a{
+	width: 100%;
+	height: auto;
+}
+
+#HOME { 
+	height: auto;
+}
+#HOMEPRESENTACION {
+	height: 280px;
+	width: 100%;
+	float: none;
+	margin-top: 0;
+	margin-left: 0;
+}
+p {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#PRODUCTOS {
+	height: auto;	
+}
+#PRODUCTO1, #PRODUCTO2, #PRODUCTO3, #PRODUCTO4, #PRODUCTO6, #PRODUCTO7, #PRODUCTO8 {
+	height: 300px;
+	width: 100%;
+	float: none;
+	margin: 0;
+	border-radius: 0;
+}
+
+#TALLER {
+	height: auto;
+}
+
+#TALLER h2 {
+	text-align: left;
+}
+#cont_taller {
+	width: 80%;
+	height: auto;
+}
+#img_taller {
+	width: 80%;
+	float: none;
+	height: auto;
+}
+#info_taller {
+	width: 80%;
+	float: none;
+	height: auto;
+}
+#CONTACTO {
+	height: auto;
+}
+#form {
+	width: 80%;
+	float: none;
+}
+input, textarea {
+	width: 80%;
+	margin-left: 5px;
+}
+#galeria {
+	height: auto;
+}
+footer {
+	height: auto;
+
+}
+#INFO {
+	height: auto;
+	width: 90%;
+	float: none;
+	margin-top: 0;
+	margin-right: 0;
+}
+#REDES {
+	height: auto;
+	width: 90%;
+	float: none;
+	margin-top: 0;
+	margin-left: 0;
+	text-align: center;
+}
+#REDES img {
+	height: 20px;
+	width: 20px;
+	margin-left: 0;
+}
+
+	}/*fin media -599px*/
+
+
+
+
+
+
